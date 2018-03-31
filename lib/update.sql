@@ -17,3 +17,11 @@ id PRIMARY KEY INTEGER,
 title TEXT,
 year DATE,
 series_id TEXT);
+
+CREATE TABLE characters(
+id PRIMARY KEY INTEGER,
+name TEXT,
+motto TEXT,
+species TEXT,
+author_id TEXT,
+series_id TEXT);
