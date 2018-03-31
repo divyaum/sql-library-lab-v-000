@@ -15,7 +15,7 @@ name TEXT);
 CREATE TABLE books(
 id PRIMARY KEY INTEGER,
 title TEXT,
-year DATE,
+year INTEGER,
 series_id TEXT);
 
 CREATE TABLE characters(
