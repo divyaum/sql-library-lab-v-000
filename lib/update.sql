@@ -1,3 +1,5 @@
 CREATE TABLE series(
 id PRIMARY KEY INTEGER,
-title )
+title TEXT,
+author.id TEXT,
+sub)
